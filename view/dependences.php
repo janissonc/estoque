@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 
 <!-- Titulo e Icone - HEAD -->
-<title>CRUD - Udemy</title>
+<title>Hackathon</title>
 
 <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
 
@@ -45,4 +45,3 @@ h2 {
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script> 
 
 -->
-    <link rel="stylesheet" type="text/css" href="../vendor/css/style.css">
