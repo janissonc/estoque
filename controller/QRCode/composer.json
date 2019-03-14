@@ -1,0 +1,14 @@
+{
+    "name": "janisson/qrcode",
+    "description": "QRcode",
+    "authors": [
+        {
+            "name": "janisson",
+            "email": "janisson.bass@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "chillerlan/php-qrcode": "dev-master"
+    }
+}
