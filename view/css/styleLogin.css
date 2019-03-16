@@ -1,0 +1,62 @@
+body
+{
+	background: url("../img/fundo_2.jpg");
+}
+@media(max-width: 500px){
+		.login
+		{
+			border-radius: 25px;
+			margin:50% auto;
+			width: 70%;  
+			padding: 10px;
+			color:#000;
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+			background: rgba(255,255,255,0.8);
+
+		}
+		.title
+		{
+			text-align: center;
+		}
+
+}
+
+@media(min-width: 500px) and (max-width: 1000px){
+
+		.login
+		{
+			border-radius: 25px;
+			margin:50% auto;
+			width: 80%;  
+			padding: 10px;
+			color:#000;
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+			background: rgba(255,255,255,0.8);
+		}
+
+		.title
+		{
+			text-align: center;
+		}
+
+}
+
+@media(min-width: 1000px){
+
+			.login
+		{
+			border-radius: 25px;
+			margin:13% auto;
+			width: 40%;  
+			padding: 10px;
+			color:#000;
+			box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+			background: rgba(255,255,255,0.8);
+		}
+
+		.title
+		{
+			text-align: center;
+		}
+
+}

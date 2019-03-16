@@ -1,13 +1,13 @@
 <?php 
-include_once'model/Conexao.class.php';
-include_once'model/Manager.class.php';
+include_once'../../model/Conexao.class.php';
+include_once'../../model/Manager.class.php';
 $manager = new Manager();
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<?php include_once 'view/dependences.php'; ?>
+	<?php include_once '../dependences.php'; ?>
 </head>
 <body>
 
@@ -16,7 +16,7 @@ $manager = new Manager();
 	<h2 class="text-center"> List of routers <i class="fa fa-users"></i></h2>
 
 	<h5 class="text-right">
-		<a href="view/router/pageRegisterRouter.php" class="btn btn-primary btn-xs">
+		<a href="pageRegisterRouter.php" class="btn btn-primary btn-xs">
 			<i class="fa fa-user-plus"></i>
 		</a>
 	</h5>
@@ -43,7 +43,7 @@ $manager = new Manager();
 					<td><?php echo $cliente['descricao']; ?></td>
 					<td><?php echo $cliente['status']; ?></td>
 					<td>
-						<form method="POST" action="view/router/pageUpdateRouter.php">
+						<form method="POST" action="../router/pageUpdateRouter.php">
 							<input type="hidden" name="id" value="<?php echo $cliente['id']; ?>">
 							<button class="btn btn-warning btn-xs">
 								<i class="fa fa-user-edit"></i>
@@ -51,7 +51,7 @@ $manager = new Manager();
 						</form>
 					</td>
 					<td>
-						<form method="POST" action="controller/router/deleteRouter.php" onclick="return confirm('Tem certeza que deseja excluir ?');">
+						<form method="POST" action="../../controller/router/deleteRouter.php" onclick="return confirm('Tem certeza que deseja excluir ?');">
 							<input type="hidden" name="id" value="<?php echo $cliente['id']; ?>">
 							<button class="btn btn-danger btn-xs">
 								<i class="fa fa-trash"></i>
