@@ -16,9 +16,9 @@ class Manager extends Conexao
 		
 		$statement->execute();
 	}
-	public function listData($table){
+	public function listData($table,$order){
 		$pdo = parent::get_instance();
-		$sql = "SELECT * FROM $table ORDER BY modelo ASC";
+		$sql = "SELECT * FROM $table ORDER BY $order ASC";
 		$statement = $pdo->query($sql);
 		$statement->execute();
 

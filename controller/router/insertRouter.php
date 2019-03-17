@@ -10,5 +10,5 @@ $data = $_POST;
 if (isset($data) && !empty($data)) {
 	$manager->insertData("router",$data);
 
-	header("Location: ../../index.php?Client_add_success");
+	header("Location: ../../view/home.php");
 }

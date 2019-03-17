@@ -8,6 +8,8 @@ $manager = new Manager();
 <html>
 <head>
 	<?php include_once '../dependences.php'; ?>
+	<link rel="icon" href="../img/h.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="../img/h.ico" type="image/x-icon" />
 </head>
 <body>
 

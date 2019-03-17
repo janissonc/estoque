@@ -10,7 +10,8 @@ $id = $_POST['id'];
 if (isset($id) && !empty($id)) {
 	$manager->updateData("router",$data, $id);
 
-	header("Location: ../../index.php?Client_updated");
+	
+	header("Location: ../../view/home.php");
 }
 
 ?>

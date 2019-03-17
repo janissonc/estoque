@@ -5,9 +5,6 @@
 <meta name="author" content="">
 <!-- Titulo e Icone - HEAD -->
 <title>Hackathon</title>
-
-<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-
 <!-- CDN's -->
 
 <!-- Bootstrap 4 -->

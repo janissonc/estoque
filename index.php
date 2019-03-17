@@ -4,6 +4,8 @@
   <head>
     <?php include_once"view/dependences.php";?>
     <link rel="stylesheet" type="text/css" href="view/css/styleLogin.css">
+    <link rel="icon" href="view/img/h.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="view/img/h.ico" type="image/x-icon" />
   </head>
   <body>
     
@@ -13,7 +15,7 @@
     		<span class="title">
 				<h1><i class="fa fa-users"></i></h1>
 			</span>
-			<form action="../../controller/validarconta.php" method="post">
+			<form action="controller/user/autenticacao.php" method="post">
 				<div class="row">
 				  <div class="form-group col-sm-12">
 				    <label for="login">Login:</label>
